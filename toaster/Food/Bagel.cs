@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace toaster
+namespace Toaster.Food
 {
     public class Bagel : IToastable
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace toaster
+namespace Toaster
 {
     class Program
     {
