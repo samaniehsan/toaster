@@ -11,7 +11,7 @@ namespace toaster
 
         private Dictionary<uint,  uint> LevelToSlotMapping { get; set; }
 
-        public void SettSlotItem(uint slot, Item item)
+        public void SettSlotItem(uint slot, DefaultItem item)
         {
 
         }

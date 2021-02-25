@@ -4,10 +4,10 @@ using System.Text;
 
 namespace toaster
 {
-    public class Poptart : IToastable
+    public  class DefaultItem : IToastable
     {
         public TimeSpan GetJustRight { get; } = TimeSpan.FromMinutes(1);
         public TimeSpan GetMinimumTime { get; } = TimeSpan.FromSeconds(30);
-        public TimeSpan GetMaxiumTime { get; } = TimeSpan.FromSeconds(90);
+        public TimeSpan GetMaxiumTime { get; } = TimeSpan.FromMinutes(2);
     }
 }
