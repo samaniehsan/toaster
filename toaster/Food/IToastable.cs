@@ -6,8 +6,8 @@ namespace Toaster.Food
 {
     public interface IToastable
     {
-        public TimeSpan GetJustRight { get; }
-        public TimeSpan GetMinimumTime { get; }
-        public TimeSpan GetMaxiumTime { get; }
+        public TimeSpan JustRight { get; }
+        public TimeSpan MinimumTime { get; }
+        public TimeSpan MaxiumTime { get; }
     }
 }

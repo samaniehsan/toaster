@@ -6,8 +6,8 @@ namespace Toaster.Food
 {
     public class Bagel : IToastable
     {
-        public TimeSpan GetJustRight { get; } = TimeSpan.FromMinutes(10);
-        public TimeSpan GetMinimumTime { get; } = TimeSpan.FromMinutes(5);
-        public TimeSpan GetMaxiumTime { get; } = TimeSpan.FromMinutes(12);
+        public TimeSpan JustRight { get; } = TimeSpan.FromMinutes(10);
+        public TimeSpan MinimumTime { get; } = TimeSpan.FromMinutes(5);
+        public TimeSpan MaxiumTime { get; } = TimeSpan.FromMinutes(12);
     }
 }

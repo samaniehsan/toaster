@@ -6,8 +6,8 @@ namespace Toaster.Food
 {
     public class SlicedBread: IToastable
     {
-        public TimeSpan GetJustRight { get; } = TimeSpan.FromMinutes(2);
-        public TimeSpan GetMinimumTime { get; } = TimeSpan.FromMinutes(1);
-        public TimeSpan GetMaxiumTime { get; } = TimeSpan.FromSeconds(3);
+        public TimeSpan JustRight { get; } = TimeSpan.FromMinutes(2);
+        public TimeSpan MinimumTime { get; } = TimeSpan.FromMinutes(1);
+        public TimeSpan MaxiumTime { get; } = TimeSpan.FromSeconds(3);
     }
 }

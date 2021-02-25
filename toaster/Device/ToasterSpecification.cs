@@ -8,7 +8,7 @@ namespace Toaster.Device
     {
         public uint SlotCount { get; private set; }
         public uint LeverCount { get; private set; }
-        public TimeSpan MaxTime { get; set; } = TimeSpan.FromMinutes(15);
-        private Dictionary<uint,  uint> LevelToSlotMapping { get; set; }
+        public TimeSpan MaxDuration { get; set; } = TimeSpan.FromMinutes(15);
+        public Dictionary<uint,  uint[]> LeverToSlotMapping { get; private set; }
     }
 }
